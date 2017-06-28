@@ -1,24 +1,27 @@
 {
   "name": "doxter",
   "version": "0.0.1",
-  "description": "Auto-generated documentation for your code",
+  "description": "Auto-generate documentation from your code",
   "bin": "bin/doxter.js",
   "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "documentation",
     "doxter",
+    "documentation",
+    "doc",
     "javascript",
-    "node"
+    "php",
+    "node",
+    "api"
   ],
   "author": "Johan Hargne Nohagen",
   "license": "MIT",
   "devDependencies": {
-    "jshint": "^2.9.4"
+    "eslint": "^4.1.1"
   },
   "dependencies": {
-    "commander": "^2.9.0"
+    "commander": "2.9.0"
   }
 }
