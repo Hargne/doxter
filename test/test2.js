@@ -1,6 +1,6 @@
 /**
  * @doxterMethod
- * @param  {String} input A string
+ * @param  {String} stringM1 'A string with <b>HTML</b>'
  * @return {Bool}
  */
 function test2(input) {
@@ -9,8 +9,8 @@ function test2(input) {
 
 /**
  * @doxterMethod
- * @param  {Number} input A Number
- * @param  {Object} input2 An Object
+ * @param  {Number} numberM2 'A number'
+ * @param  {Object} objectM2 An Object
  * @return {String}
  */
 function test3({ input, input2 }) {
